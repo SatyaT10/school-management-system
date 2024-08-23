@@ -1,8 +1,8 @@
 const { Sequelize } = require('sequelize');
 
-const sequelize = new Sequelize('schoolmanagementsystemdb', 'root', 'Satya@143', {
+const sequelize = new Sequelize('railway', 'root', 'SYQPyFLaEtQCtghCVuDmTDyFXOiPZrcz', {
 
-  host: '127.0.0.1',
+  host: 'mysql.railway.internal',
   dialect: 'mysql',
    port: 3306,
 });
